@@ -10,3 +10,9 @@ resource "aws_instance" "example_server" {
   instance_type = "t2.micro"
   region        = "us-west-2"
 }
+
+resource "aws_instance" "example_server_02" {
+  ami           = "ami-04e914639d0cca79a"
+  instance_type = "t2.micro"
+  region        = "us-west-2"
+}
