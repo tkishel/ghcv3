@@ -14,4 +14,4 @@ resource "aws_instance" "example_server_pr" {
   instance_type = "t2.micro"
 }
 
-# C2
+# C3
